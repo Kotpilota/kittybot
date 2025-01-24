@@ -8,13 +8,14 @@ KittyBot — это телеграм-бот, который отправляет
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone <URL вашего репозитория>
-cd <название репозитория>
+git clone https://github.com/Kotpilota/kittybot.git
 ```
 
 ### 2. Установите зависимости
-Убедитесь, что у вас установлен Python 3.8+ и `pip`. Затем выполните:
+Убедитесь, что у вас установлен Python 3.8+. Затем выполните:
 ```bash
+python -m venv venv
+source venv/Script/activate
 pip install -r requirements.txt
 ```
 
